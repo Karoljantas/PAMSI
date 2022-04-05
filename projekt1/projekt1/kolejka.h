@@ -7,6 +7,7 @@ class kolejka  //klasa kolejka
 private:  //typ prywatny
     int N; // ilosc elemetów w kolejce
     element* ostatni;  //ostatni elemet
+    element* pierwszy;
 public:  //typ publiczny
     kolejka();  //konstruktor kolejka   przypisuje null i N=0
     void rozmiar() { cout << "ilosc elementow: " << N << endl; } //wypisuje ilosc elemetow
